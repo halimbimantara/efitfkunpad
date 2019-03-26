@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/fpwd_q"
+            android:textColor="#faf8f8"
+            android:textStyle="bold"
+            android:textSize="11pt"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lv_input"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/fpwd"
+        android:textColor="@color/colorwhite"/>
+
+    <LinearLayout
+        android:id="@+id/lv_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/Et_frgtPwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/oval_edittext"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/Btn_lpapwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textColor="@color/colorwhite"
+            android:textStyle="bold"
+            android:theme="@style/MyButtonAccent"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

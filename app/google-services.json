@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "976233827330",
+    "firebase_url": "https://e-officefarmalkes.firebaseio.com",
+    "project_id": "e-officefarmalkes",
+    "storage_bucket": "e-officefarmalkes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976233827330:android:7be7eda61fcbdbfd",
+        "android_client_info": {
+          "package_name": "com.bdg.sipantos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976233827330-nj5dlrbdiedo6nhniathkn2pv95lcol6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bdg.sipantos",
+            "certificate_hash": "9af78e81a5024e046c26d3fecf6c61d6add21b1e"
+          }
+        },
+        {
+          "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA72WCXUuYTbpxLlhAuYVts_iuimJLUA-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976233827330:android:3890f93129556b24",
+        "android_client_info": {
+          "package_name": "farmalkes.eoffice.org"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976233827330-kg7u74brbroobcieru3ba5v8vd8ehui4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "farmalkes.eoffice.org",
+            "certificate_hash": "9af78e81a5024e046c26d3fecf6c61d6add21b1e"
+          }
+        },
+        {
+          "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA72WCXUuYTbpxLlhAuYVts_iuimJLUA-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976233827330:android:0379a9192b2bbe9e",
+        "android_client_info": {
+          "package_name": "org.eabsen.mobil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976233827330-c4j4h8320j7kcj0m6585vbhqheaj40r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.eabsen.mobil",
+            "certificate_hash": "9af78e81a5024e046c26d3fecf6c61d6add21b1e"
+          }
+        },
+        {
+          "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA72WCXUuYTbpxLlhAuYVts_iuimJLUA-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976233827330:android:6c2543cea563c7bb",
+        "android_client_info": {
+          "package_name": "org.efit.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976233827330-qra3jo2pojggqvu8tpc14k2dmrso5ia1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.efit.mobile",
+            "certificate_hash": "9af78e81a5024e046c26d3fecf6c61d6add21b1e"
+          }
+        },
+        {
+          "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA72WCXUuYTbpxLlhAuYVts_iuimJLUA-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976233827330-rl2j1t7hdp99vjr4c8mhh4406vcagsia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

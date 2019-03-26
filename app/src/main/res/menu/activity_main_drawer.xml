@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/bukuharian"
+            android:title="Buku Harian" />
+        <!--</group>-->
+        <!--<item android:title="Layanan">-->
+        <!--<menu>-->
+        <item
+            android:id="@+id/nav_ijin"
+            android:icon="@drawable/ico_kemajuan"
+            android:title="Grafik" />
+
+        <item
+            android:id="@+id/nav_akun"
+            android:icon="@drawable/ic_account_induk"
+            android:title="Akun" />
+        <!--nanda-->
+        <item
+            android:id="@+id/nav_persuratan"
+            android:icon="@drawable/ic_suratan"
+            android:title="Bantuan"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_meeting"
+            android:icon="@drawable/ic_meeting"
+            android:title="E-Meeting"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/bantuan"
+            android:title="Bantuan" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/nav_logout" />
+        <item
+            android:id="@+id/nav_device"
+            android:icon="@drawable/ico_sinkronisasi"
+            android:title="Sinkronisasi" />
+    </group>
+</menu>

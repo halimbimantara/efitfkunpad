@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ln_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.victor.loading.newton.NewtonCradleLoading
+            android:id="@+id/newton_cradle_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewBiodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="gone">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NIP Pegawai"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_nip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Nik-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pegawai"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!---->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama STLUD"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_namastlud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--TTl-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nota Bakn"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_notabakn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Jenkel-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tgl Nota Bakn"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_tglntbakn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--AK-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Angka Kredit"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_akkredit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+                <!--AGama-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pejabat Penetap"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_pjbtpntap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--status Perkawinan-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No SK Pangkat"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_skpangkat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--AGama-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tgl SK PANGKAT"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_tglskpangkat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--tmt pangkat-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tmt Pangkat"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_tmtpangkat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Jabatan-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tmt Pangkat Lanjut"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_pktlanjut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!---->
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masa Kerja Bln"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_tgl_mskrjabln"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masa Kerja Thn"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_tgl_mskrjathn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+
+                <!--Almaat-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pangkat Gol.ruang"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_pktgolru"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Pangkat"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_jnspgkt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Copy STTB"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_cpsttb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+    </ScrollView>
+
+    <include layout="@layout/warning_noconnection" />
+</LinearLayout>

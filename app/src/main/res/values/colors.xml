@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5381FF</color>
+    <color name="colorPrimaryDark">#3365EE</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorwhite">#FFFF</color>
+    <color name="colorOrange">#f89a3a</color>
+    <color name="colorpurple">#a11b60</color>
+    <color name="colorgreen">#4CAF50</color>
+    <color name="colorBlueSea">#1aa0a3</color>
+
+    <!-- bottom navigation -->
+    <color name="background_bottom">#F2F2F2</color>
+    <color name="selector_item_colors">#6C7070</color>
+    <color name="selector_item_color">#5C5F5F</color>
+    <color name="text_selector_item_color">#95989A</color>
+    <color name="text_selector_item_color2">#95989A</color>
+    <color name="button_color">#ffff09</color>
+    <color name="button_danger">#ff1109</color>
+    <color name="color_type_wrong">#f62b2c</color>
+    <color name="colorGrey">#95989A</color>
+    <color name="colorBlack">#0F0F0F</color>
+    <color name="colorBlue">#37a4d7</color>
+    <color name="colorRed">#E53935</color>
+    <color name="colorPink">#e12a82</color>
+    <color name="white">#FFFF</color>
+    <color name="yellows">#ffff09</color>
+</resources>

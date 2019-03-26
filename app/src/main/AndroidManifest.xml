@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.efit.mobile">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".Myapplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.samsung.android.health.permission.read"
+            android:value="com.samsung.health.step_count;com.samsung.shealth.step_daily_trend;com.samsung.health.exercise" />
+
+        <activity
+            android:name=".detailactivity.DetailActivityMinum"
+            android:label="Input Air Minum"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme"></activity> <activity
+            android:name=".detailactivity.profil.EditProgres"
+            android:label="Input berat badan"
+            android:parentActivityName=".activity.ActivityProfile"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".detailactivity.profil.EditSasaran"
+            android:label="Sasaran"
+            android:parentActivityName=".activity.ActivityProfile"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".activity.navigator.ActivityNavOlahraga"
+            android:label="Olahraga"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme"></activity>
+
+
+        <activity
+            android:name=".activity.DetailMenuSarapan"
+            android:label="Tambah Menu"
+            android:parentActivityName=".activity.ActivityCariMenu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ActivityCariMenu"
+            android:label="Cari Menu"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".welcome.ActivityDaftar"
+            android:label="Buat Akun"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".welcome.FirstActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".welcome.quizioner.ActivityQuiz"
+            android:label="Quesioner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".welcome.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="org.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA_b3Cx4atBmyOcIciFho_jItbw_9N8TGw" />
+
+        <service android:name=".utility.pushnotif.PushNotifikasiService">
+            <intent-filter>
+                <action android:name="org.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".utility.pushnotif.FirebaseIDService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".welcome.LoginActivity"
+            android:label="Masuk"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ActivityProfile"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.efit.mobile.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name=".detailactivity.ActivityProgram"
+            android:label="Program"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.efit.mobile.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name=".activity.article.ActivityArticle"
+            android:label="Blog"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.article.DetailArtikel"
+            android:label="Detail Blog"
+            android:parentActivityName=".activity.article.ActivityArticle"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.efit.mobile.activity.article.ActivityArticle" />
+        </activity>
+        <activity
+            android:name=".detailactivity.loker.DetailActivityLoker"
+            android:label="Detail Lowongan"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.efit.mobile.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name=".detailactivity.Diklat.DetailActivityDiklat"
+            android:label="Detail Diklat"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.efit.mobile.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name=".welcome.ActivitysetUrl"
+            android:label="Set URL"
+            android:parentActivityName=".welcome.LoginActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.efit.mobile.welcome.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".detailactivity.DetailOrder"
+            android:label="Booking"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.efit.mobile.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name=".detailactivity.DetailActivityAbout"
+            android:label="Detail"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".detailactivity.DetailActivitySupport"
+            android:label="Supports"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.layanan.ActivityInLayanan"
+            android:label="Layanan Cuti"
+            android:parentActivityName=".MainMenuActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

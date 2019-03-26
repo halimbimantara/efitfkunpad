@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/agenda_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginTop="4dp"
+                                    android:gravity="center_vertical"
+                                    android:minHeight="72dp"
+                                    android:orientation="horizontal"
+                                    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_id_onprocess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="Roboto"
+                android:text="#ID59872"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:id="@+id/tv_tgl_onprocess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="Roboto"
+                android:gravity="center"
+                android:text="20 Okt 2018"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:layout_marginRight="4dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ic_timeclock"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:src="@drawable/draw_line"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/tv_nama_onprocess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="Roboto"
+                    android:text="Moh Halim Bimantara"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp"/>
+
+                <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginRight="4dp"-->
+                <!--android:src="@drawable/ic_email_outline_black_18dp" />-->
+                <TextView
+                    android:id="@+id/tv_status_proses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="Roboto"
+                    android:gravity="right"
+                    android:paddingRight="6dp"
+                    android:text="On Process"
+                    android:textColor="@color/colorBlack"/>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/imv_status"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_marginRight="4dp"
+                    android:src="@drawable/ic_success"/>
+                <!--<TextView-->
+                <!--android:id="@+id/onproces_pesan"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:fontFamily="Roboto"-->
+                <!--android:text="Message"-->
+                <!--android:textColor="@color/colorBlack" />-->
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

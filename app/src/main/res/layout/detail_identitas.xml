@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ln_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.victor.loading.newton.NewtonCradleLoading
+            android:id="@+id/newton_cradle_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewBiodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NIP Pegawai"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_nip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Nik-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NIP Lama"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_niplama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--TTl-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status Kepegawaian"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_statpeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Jenkel-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kepegawaian"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_jenpeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+                <!--AGama-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kedudukan Pegawai"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_kedukpeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--status Perkawinan-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status Perkawinan"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_skawin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--AGama-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gol Darah"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_goldarah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--tmt pangkat-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Jabatan-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rt"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_rt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--tmt jabatan-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rw"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_rw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Pendidikan-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No. Telp"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_notlp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <!--Almaat-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Pos"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_kdpos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Provinsi"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_prov"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kabupaten / Kota"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_kabkot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kecamatan"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_kec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kelurahan/Desa"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_keldes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No.Penduduk"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_nopenduk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Karpeg"
+                    android:textStyle="bold" />
+
+                <EditText
+
+                    android:id="@+id/ET_bio_nokarpeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No.Karis su"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_nokarissu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No.Akses"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_noakses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NPWP"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_npwp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No.Taspen"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_notaspen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status kepemilikan kpe"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_satkpe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tgl Kpe"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_tglkpe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thn Pendataan"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ET_bio_thnpndataan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/colorBlack" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+    </ScrollView>
+
+    <include layout="@layout/warning_noconnection" />
+</LinearLayout>
